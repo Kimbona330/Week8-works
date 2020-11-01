@@ -1,0 +1,52 @@
+.container{
+	width:100%;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.intro-wrap {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.bgwrap {
+	width: 100%;
+	height: 100%; 
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.intro-wrap > .bgwrap > div {
+	width: 100%;
+	height: 100%; 
+	background-color:#FFFFFF; 
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.intro-wrap > .bgwrap > div > img {
+	height: 100%;
+	width: 100%;  
+	max-width: inherit;
+}
+.mouseover{
+	width: 20%;
+	height: 64%;
+	position: relative;
+	top: -72%;
+	left: 53.4%;
+	cursor: pointer;
+}
+.image{
+	display: none;
+	width: 101%; 
+	height: 100%; 
+	top: -72%; 
+	left: 37%;
+}
